@@ -130,6 +130,7 @@ const Users = () => {
           <option value="">Select Role</option>
           <option value="base_commander">Base Commander</option>
           <option value="logistics_officer">Logistic Officer</option>
+          <option value="admin">Admin</option>
         </select>
         
 
