@@ -69,6 +69,12 @@ const SignIn = () => {
           </button>
         </form>
         {error && <p className="auth-error">{error}</p>}
+        <div className="login-details">
+        <p>To Signin</p>
+        <p><span className="role">Admin:</span> admin@gmail.com Password: admin123</p>
+        <p><span className="role">LogisticOfficer: </span>logisticofficer@gmail.com Password: logisticofficer123</p>
+        <p><span className="role">Base Commander: </span> commander@gmail.com Password: commander123</p>
+        </div>
       </div>
     </div>
   );
